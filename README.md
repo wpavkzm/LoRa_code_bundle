@@ -18,3 +18,22 @@ For accurate data transmission where there are multiple end devices, LBT techniq
 **Experiment
 
 In our experiment we used 10 Lora development boards as shown below. 1 as a LoraGateway and remaining 9 as end devices. 
+
+
+Step 2. Raspi LoRa
+
+**python RFM lib install
+**
+
+1. yum install python-pip
+2. curl -k -O https://bootstrap.pypa.io/get-pip.py
+3. python get-pip.py
+4. pip install SomePackage
+5. pip install crm-rfm-modeling
+6. python3 확인
+
+import crm_rfm_modeling
+
+       from crm_rfm_modeling import rfm
+       rfm_obj0 = crm_rfm_modeling.rfm.RFM()
+       rfm_obj1 = rfm.RFM()
